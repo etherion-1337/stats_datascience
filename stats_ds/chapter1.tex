@@ -17,9 +17,43 @@ More formally, a probability mass function (PMF) is a function that gives the pr
 Formal definition:\\
 PMF is the probability distribution of a discrete random variable, and provides the possible values and associated probabilities. The probabilities associated with each possible values must be positive and sum up to 1. For all other values, the probabilities need to be 0.
 
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.05]{Fair_dice_probability_distribution.png}
+	\caption[]{The probability mass function of a fair die. All the values of this function must be non-negative and sum up to 1}
+	\label{fairdiepmf}
+	\end{center}
+	\end{figure}
+
 \section{Probability Density Function (PDF)}
 
-\section{Cumulative Distributed Function (CDF)}
+The Probability Density Function (PDF) of a \underline{continuous} random variable, is a function whose value at any given sample (or point) in the sample space (the set of possible values taken by the random variable) can be interpreted as providing a relative likelihood that the value of the random variable would equal that sample. \\
+
+In a more precise sense, the PDF is used to specify the probability of the random variable falling within a particular range of values, as opposed to taking on any one value. This probability is given by the integral of this variable's PDF over that range—that is, it is given by the area under the density function but above the horizontal axis and between the lowest and greatest values of the range. The probability density function is nonnegative everywhere, and its integral over the entire space is equal to 1. A PDF must be integrated over an interval to yield a probability, which is different from PMF (other than continuous VS discrete random variable).\\
+
+More formally, the PDF is most commonly associated with absolutely continuous univariate distribution, a random variable $X$ has PDF $f_X$ and the probability of this variable taking values between $a$ and $b$, i.e. $a \le X \le b$ will be:
+\begin{eqnarray}
+P(a \le X \le b) = \int^{b}_{a} f_X (x) dx
+\label{pdf}
+\end{eqnarray}
+
+If $F_X$ is the cumulative distribution function (CDF) of X, then:
+\begin{eqnarray}
+F_X(x) = \int^{x}_{-\infty} f_X(u) du
+\label{cdf}
+\end{eqnarray}
+
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.07]{pdf_visual.png}
+	\caption[]{Geometric visualisation of the mode, median and mean of an arbitrary probability density function.}
+	\label{fairdiepmf}
+	\end{center}
+	\end{figure}
+
+\section{Cumulative Distribution Function (CDF)}
+
+The Cumulative Distribution Function (CDF) of a real-valued random variable $X$ (continuous or discrete), evaluated at $x$, is the probability that $X$ will take a value less than or equal to $x$. In the case of a scalar continuous distribution, it gives the area under the probability density function (PDF) from $-\infty$ to $x$.
 
 \section{Bernoulli Trials}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.19)  13 SEP 2020 19:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.19)  13 SEP 2020 23:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -703,7 +703,14 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks35
 \AP@partial=\box41
 \AP@footins=\box42
-) (./stats.aux)
+) (./stats.aux
+
+LaTeX Warning: Label `fairdiepmf' multiply defined.
+
+
+LaTeX Warning: Label `fairdiepmf@cref' multiply defined.
+
+)
 \openout1 = `stats.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -866,8 +873,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
+<chapter1graph/Fair_dice_probability_distribution.png, id=303, 2890.8pt x 1259.
+70625pt>
+File: chapter1graph/Fair_dice_probability_distribution.png Graphic file (type p
+ng)
+<use chapter1graph/Fair_dice_probability_distribution.png>
+Package pdftex.def Info: chapter1graph/Fair_dice_probability_distribution.png  
+used on input line 22.
+(pdftex.def)             Requested size: 144.54846pt x 62.989pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
@@ -876,39 +891,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 39--41
+ <./chapter1graph/Fair_dice_probability_distribution.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
+
+<chapter1graph/pdf_visual.png, id=314, 1027.84pt x 1761.58125pt>
+File: chapter1graph/pdf_visual.png Graphic file (type png)
+<use chapter1graph/pdf_visual.png>
+Package pdftex.def Info: chapter1graph/pdf_visual.png  used on input line 48.
+(pdftex.def)             Requested size: 71.95615pt x 123.32329pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 42--44
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
 
  []
 
-[3]) (./chapter2.tex [4]
+[3 <./chapter1graph/pdf_visual.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+[4]) (./chapter2.tex [5]
 Chapter 2.
-) (./chapter3.tex [5
+) (./chapter3.tex [6
 
 ]
 Chapter 3.
-) (./chapter4.tex [6
+) (./chapter4.tex [7
 
-] [7]
+] [8]
 Chapter 4.
-) (./chapter5.tex [8
+) (./chapter5.tex [9
 
 ]
 Chapter 5.
 )
 No file stats.bbl.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
-[9
+[10
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
@@ -916,14 +949,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `stats.out' has not changed.
-(rerunfilecheck)             Checksum: 56302B7BF5DB6ED2F7361387A53F297A;3664.
+(rerunfilecheck)             Checksum: 59D049904BB7A8C516533BA14F632B6C;3665.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 15133 strings out of 492616
- 243665 string characters out of 6129481
+ 15171 strings out of 492616
+ 244395 string characters out of 6129481
  404578 words of memory out of 5000000
- 18649 multiletter control sequences out of 15000+600000
- 27020 words of font info for 97 fonts, out of 8000000 for 9000
+ 18668 multiletter control sequences out of 15000+600000
+ 27310 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,18n,94p,934b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -939,10 +976,10 @@ xlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texl
 ive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texliv
 e/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
 2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on stats.pdf (13 pages, 164196 bytes).
+Output written on stats.pdf (14 pages, 321492 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
- 385 compressed objects within 4 object streams
- 74 named destinations out of 1000 (max. 500000)
- 15801 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 429 PDF objects out of 1000 (max. 8388607)
+ 394 compressed objects within 4 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 15811 words of extra memory for PDF output out of 17280 (max. 10000000)
 
