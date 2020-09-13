@@ -10,6 +10,39 @@ This chapter deals with concepts mainly related to various probability distribut
 
 \section{Bernoulli Trials}
 
+This is a \underline{random} experiment with exactly 2 possible outcomes. The probability of success is the same every time experiment is conducted. A similar analogy: Flipping a (possibly) biased coin, each coin has probability \textcolor{blue}{$p$} of landing heads (\textcolor{blue}{success}) and probability \textcolor{red}{$1 - p$} of landing tails (\textcolor{red}{failure}).  \\
+
+Closely related to a Bernoulli trial is a binomial experiment, which consists of a fixed number $n$ of statistically independent Bernoulli trails, each with a probability of success \textcolor{blue}{$p$}, and counts the number of success. The number $k$ of success in $n$ Bernoulli trials is Binomially distributed. The probability of exactly $k$ success (out of $n$) is given by the probability mass function: 
+\begin{eqnarray}
+P(k) = \binom{n}{k} p^k (1-p)^{n-k}
+\label{binomialPMF}
+\end{eqnarray}
+where $\binom{n}{k}$ is the binomial coefficient:
+\begin{eqnarray}
+\binom{n}{k} = \frac{n !}{k! (n-k)!}
+\label{binomialcoef}
+\end{eqnarray}
+
+Example:\\
+Let's say a bank made 100 mortgage loans. It is possible that anywhere between 0 and 100 of the loans will be defaulted upon. You would like to know the probability of getting a given number of defaults, given that the probability of a default is $p = 0.05$. To investigate this, you will do a simulation. You will perform 100 Bernoulli trials. Here, a success is a default. (Remember that the word `success' just means that the Bernoulli trial evaluates to be True, i.e., did the loan recipient default?) You will do this for another 100 Bernoulli trials. And again and again until we have tried it 1000 times. Then, you will plot a histogram describing the probability of the number of defaults. So we have performed 1000 times of 100 mortgage trials, the histogram should show a maximum at about 5 (because $0.05 \times 100$) and probability is given in Eqn. (\ref{binomialPMF}). \\   
+
+Example:\\
+Consider the simple experiment where a fair coin is tossed four times. Find the probability that exactly two of the tosses result in heads.\\
+\begin{eqnarray*}
+P(2) &=& \binom{4}{2}p^2 (1-p)^{4-2} \\ 
+&=& 6 \times (0.5)^2 \times (0.5)^2 \\ 
+&=& \frac{3}{8}\\ 
+\label{coin}
+\end{eqnarray*}
+
+When multiple Bernoulli trials are performed, each with its own probability of success, these are sometimes referred to as Poisson trials.
+
+\section{Probability Distributed Function}
+
+\section{Cumulative Distributed Function}
+
+\section{Probability Mass Function}
+
 \section{Discrete variable: Binomial Distribution}
 
 \section{Discrete variable: Poisson Distribution}
@@ -18,7 +51,5 @@ This chapter deals with concepts mainly related to various probability distribut
 
 \section{Continuous variable: Exponential Distribution}
 
-\section{Probability Distributed Function}
 
-\section{Cumulative Distributed Function}
 
