@@ -1,0 +1,44 @@
+\documentclass[linespacing=double, fontsize=11pt]{SPhdThesis}
+
+\SgSetTitle{Statistics Concepts used in the Domain of Data Science and Machine Learning}
+\SgSetAuthor{Xavier Tang}
+\SgSetAuthorDegrees{}
+\SgSetSubject{}
+\SgSetYear{2020}
+\SgSetDegree{}
+\SgSetDepartment{}
+\SgSetUniversity{}
+\SgSetDeclarationDate{}
+\usepackage{acronym}
+\usepackage{notoccite}
+\usepackage{upgreek}
+\usepackage{bm}
+
+\usepackage{afterpage}
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+    
+\begin{document}
+	\begin{frontmatter}
+		\SgAddTitle
+		\SgAddToc
+
+	\end{frontmatter}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+	\input{chapter1}
+	\input{chapter2}
+	\input{chapter3}
+	\input{chapter4}
+	\input{chapter5}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+	\bibliographystyle{naturemag}
+	\bibliography{stats}
+	
+	
+\end{document}
