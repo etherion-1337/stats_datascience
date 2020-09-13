@@ -8,7 +8,7 @@
 
 This chapter deals with concepts mainly related to various probability distribution.
 
-\section{Probability Mass Function}
+\section{Probability Mass Function (PMF)}
 
 The Probability Mass Function (PMF) gives the set of probabilities of \underline{discrete} outcome, e.g. discrete uniform PMF: roll one dice, each outcome is 1/6. \\
 
@@ -17,10 +17,9 @@ More formally, a probability mass function (PMF) is a function that gives the pr
 Formal definition:\\
 PMF is the probability distribution of a discrete random variable, and provides the possible values and associated probabilities. The probabilities associated with each possible values must be positive and sum up to 1. For all other values, the probabilities need to be 0.
 
-\section{Probability Density Function}
+\section{Probability Density Function (PDF)}
 
-
-\section{Cumulative Distributed Function}
+\section{Cumulative Distributed Function (CDF)}
 
 \section{Bernoulli Trials}
 
@@ -53,7 +52,25 @@ When multiple Bernoulli trials are performed, each with its own probability of s
 
 \section{Discrete variable: Binomial Distribution}
 
+The Binomial Distribution with parameters $n$ and $p$, denoted Bin$(n,p)$ is the discrete probability distribution of the number of successes in a sequence of $n$ independent experiments, each asking a yes–no question, and each with its own boolean-valued outcome True (with probability $p$), or failure (with probability $q = 1- p$). A single success or failure experiment is also called a Bernoulli trial. \\
+
+The binomial distribution is frequently used to model the number of successes in a sample of size $n$ drawn with replacement from a population of size $N$. If the sampling is carried out without replacement, then the draws are not independent and so the resulting distribution would be a hypergeometric distribution, not a binomial one. However, for N much larger than n, the binomial distribution remains a good approximation, and is widely used.
+
+The PMF of Binomial Distribution is given in Eqn.(\ref{binomialPMF}). The CDF of Binomial Distribution can be expressed as:
+\begin{eqnarray}
+\sum_{i=0}^{k} \binom{n}{i} p^i (1-p)^{n-i}
+\label{binomialCDF}
+\end{eqnarray}
+where we just add up all the probability for all the previous $k$ values.
+
 \section{Discrete variable: Bernoulli distribution}
+The Bernoulli distribution is a special case of the binomial distribution, where a single trial is conducted (i.e., a binomial distribution with $n = 1$). The PMF of Bernoulli distribution, over possible outcomes $j$ is:
+\begin{eqnarray}
+\begin{cases}
+p,             \text{if $j$ = 1}\\
+q = 1-p,      \text{if $j$ = 0}
+\end{cases}
+\end{eqnarray}
 
 \section{Discrete variable: Geometric Distribution}
 
