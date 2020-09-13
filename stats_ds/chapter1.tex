@@ -59,9 +59,9 @@ The Cumulative Distribution Function (CDF) of a real-valued random variable $X$ 
 
 This is a \underline{random} experiment with exactly 2 possible outcomes. The probability of success is the same every time experiment is conducted. A similar analogy: Flipping a (possibly) biased coin, each coin has probability \textcolor{blue}{$p$} of landing heads (\textcolor{blue}{success}) and probability \textcolor{red}{$1 - p$} of landing tails (\textcolor{red}{failure}).  \\
 
-Closely related to a Bernoulli trial is a binomial experiment, which consists of a fixed number $n$ of statistically independent Bernoulli trails, each with a probability of success \textcolor{blue}{$p$}, and counts the number of success. The number $k$ of success in $n$ Bernoulli trials is Binomially distributed. The probability of exactly $k$ success (out of $n$) is given by the probability mass function: 
+Closely related to a Bernoulli trial is a binomial experiment, which consists of a fixed number $n$ of statistically independent Bernoulli trails, each with a probability of success \textcolor{blue}{$p$}, and counts the number of success. The number $k$ of success in $n$ Bernoulli trials is Binomially distributed. The probability of exactly $k$ success (out of $n$) is given by the probability mass function (PMF): 
 \begin{eqnarray}
-P(k) = \binom{n}{k} p^k (1-p)^{n-k}
+f(k,n,p) = P(k; n.p) =  P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}
 \label{binomialPMF}
 \end{eqnarray}
 where $\binom{n}{k}$ is the binomial coefficient:
@@ -92,7 +92,7 @@ The binomial distribution is frequently used to model the number of successes in
 
 The PMF of Binomial Distribution is given in Eqn.(\ref{binomialPMF}). The CDF of Binomial Distribution can be expressed as:
 \begin{eqnarray}
-\sum_{i=0}^{k} \binom{n}{i} p^i (1-p)^{n-i}
+F(k; n, p) = P (X \le k) = \sum_{i=0}^{k} \binom{n}{i} p^i (1-p)^{n-i}
 \label{binomialCDF}
 \end{eqnarray}
 where we just add up all the probability for all the previous $k$ values.
@@ -100,13 +100,17 @@ where we just add up all the probability for all the previous $k$ values.
 \section{Discrete variable: Bernoulli distribution}
 The Bernoulli distribution is a special case of the binomial distribution, where a single trial is conducted (i.e., a binomial distribution with $n = 1$). The PMF of Bernoulli distribution, over possible outcomes $j$ is:
 \begin{eqnarray}
-\begin{cases}
+f(k;p) = \begin{cases}
 p,             \text{if $j$ = 1}\\
 q = 1-p,      \text{if $j$ = 0}
 \end{cases}
 \end{eqnarray}
 
 \section{Discrete variable: Geometric Distribution}
+
+The Geometric Distribution is either of two discrete probability distribution described below: \\
+
+1) The probability distribution of the number $X$ of Bernoulli Trials 
 
 \section{Discrete variable: Poisson Distribution}
 

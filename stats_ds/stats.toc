@@ -6,50 +6,50 @@
 \contentsline {section}{\numberline {1.5}Discrete variable: Binomial Distribution}{4}{section.1.5}% 
 \contentsline {section}{\numberline {1.6}Discrete variable: Bernoulli distribution}{5}{section.1.6}% 
 \contentsline {section}{\numberline {1.7}Discrete variable: Geometric Distribution}{5}{section.1.7}% 
-\contentsline {section}{\numberline {1.8}Discrete variable: Poisson Distribution}{5}{section.1.8}% 
-\contentsline {section}{\numberline {1.9}Continuous variable: Normal/Gaussian Distribution}{5}{section.1.9}% 
-\contentsline {section}{\numberline {1.10}Continuous variable: Exponential Distribution}{5}{section.1.10}% 
-\contentsline {chapter}{\numberline {2}Metrics}{6}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}ROC}{6}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}Standard Deviation}{6}{section.2.2}% 
-\contentsline {section}{\numberline {2.3}Variance}{6}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Confusion Matrix}{6}{section.2.4}% 
-\contentsline {subsection}{\numberline {2.4.1}Recall}{6}{subsection.2.4.1}% 
-\contentsline {subsection}{\numberline {2.4.2}Precision}{6}{subsection.2.4.2}% 
-\contentsline {subsection}{\numberline {2.4.3}F1}{6}{subsection.2.4.3}% 
-\contentsline {section}{\numberline {2.5}P value}{6}{section.2.5}% 
-\contentsline {section}{\numberline {2.6}T value}{6}{section.2.6}% 
-\contentsline {section}{\numberline {2.7}Z value}{6}{section.2.7}% 
-\contentsline {section}{\numberline {2.8}Correlation/Pearson}{6}{section.2.8}% 
-\contentsline {section}{\numberline {2.9}Covariance}{6}{section.2.9}% 
-\contentsline {chapter}{\numberline {3}Testing}{7}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}T test}{8}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Chi-square test}{8}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Z test}{8}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}A/B testing}{8}{section.3.4}% 
-\contentsline {subsection}{\numberline {3.4.1}Null hypothesis}{8}{subsection.3.4.1}% 
-\contentsline {subsection}{\numberline {3.4.2}Alternative hypothesis}{8}{subsection.3.4.2}% 
-\contentsline {subsection}{\numberline {3.4.3}Type I/II error}{8}{subsection.3.4.3}% 
-\contentsline {subsection}{\numberline {3.4.4}Statistical Power}{8}{subsection.3.4.4}% 
-\contentsline {section}{\numberline {3.5}Test of Significance}{8}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}Hypothesis testing (one-way and two-way)}{8}{section.3.6}% 
-\contentsline {section}{\numberline {3.7}ANOVA}{8}{section.3.7}% 
-\contentsline {section}{\numberline {3.8}ANCOVA}{8}{section.3.8}% 
-\contentsline {section}{\numberline {3.9}One-sample/Two-sample bootstrap hypothesis test}{8}{section.3.9}% 
-\contentsline {section}{\numberline {3.10}Time series: p, d, q parameters, unit root and box test}{8}{section.3.10}% 
-\contentsline {chapter}{\numberline {4}Thoerem}{9}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Central Limit Theorem}{9}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Law of the large number}{9}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Naive Bayes Algorithm}{9}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Bayesian Statistics/Bayes Theorem}{9}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Sampling Theory}{9}{section.4.5}% 
-\contentsline {chapter}{\numberline {5}General}{10}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Confidence Interval}{10}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Conditional Probability}{10}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Normalisation}{10}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Standardisatio}{10}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Least-squared error}{10}{section.5.5}% 
-\contentsline {section}{\numberline {5.6}R-squared error}{10}{section.5.6}% 
-\contentsline {section}{\numberline {5.7}Mean-squared error}{10}{section.5.7}% 
-\contentsline {section}{\numberline {5.8}Inferential Statistics}{10}{section.5.8}% 
-\contentsline {section}{\numberline {5.9}Bias-variance trade off}{10}{section.5.9}% 
+\contentsline {section}{\numberline {1.8}Discrete variable: Poisson Distribution}{6}{section.1.8}% 
+\contentsline {section}{\numberline {1.9}Continuous variable: Normal/Gaussian Distribution}{6}{section.1.9}% 
+\contentsline {section}{\numberline {1.10}Continuous variable: Exponential Distribution}{6}{section.1.10}% 
+\contentsline {chapter}{\numberline {2}Metrics}{7}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}ROC}{7}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Standard Deviation}{7}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Variance}{7}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Confusion Matrix}{7}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Recall}{7}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.2}Precision}{7}{subsection.2.4.2}% 
+\contentsline {subsection}{\numberline {2.4.3}F1}{7}{subsection.2.4.3}% 
+\contentsline {section}{\numberline {2.5}P value}{7}{section.2.5}% 
+\contentsline {section}{\numberline {2.6}T value}{7}{section.2.6}% 
+\contentsline {section}{\numberline {2.7}Z value}{7}{section.2.7}% 
+\contentsline {section}{\numberline {2.8}Correlation/Pearson}{7}{section.2.8}% 
+\contentsline {section}{\numberline {2.9}Covariance}{7}{section.2.9}% 
+\contentsline {chapter}{\numberline {3}Testing}{8}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}T test}{9}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Chi-square test}{9}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Z test}{9}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}A/B testing}{9}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}Null hypothesis}{9}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}Alternative hypothesis}{9}{subsection.3.4.2}% 
+\contentsline {subsection}{\numberline {3.4.3}Type I/II error}{9}{subsection.3.4.3}% 
+\contentsline {subsection}{\numberline {3.4.4}Statistical Power}{9}{subsection.3.4.4}% 
+\contentsline {section}{\numberline {3.5}Test of Significance}{9}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Hypothesis testing (one-way and two-way)}{9}{section.3.6}% 
+\contentsline {section}{\numberline {3.7}ANOVA}{9}{section.3.7}% 
+\contentsline {section}{\numberline {3.8}ANCOVA}{9}{section.3.8}% 
+\contentsline {section}{\numberline {3.9}One-sample/Two-sample bootstrap hypothesis test}{9}{section.3.9}% 
+\contentsline {section}{\numberline {3.10}Time series: p, d, q parameters, unit root and box test}{9}{section.3.10}% 
+\contentsline {chapter}{\numberline {4}Thoerem}{10}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Central Limit Theorem}{10}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Law of the large number}{10}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Naive Bayes Algorithm}{10}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Bayesian Statistics/Bayes Theorem}{10}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Sampling Theory}{10}{section.4.5}% 
+\contentsline {chapter}{\numberline {5}General}{11}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Confidence Interval}{11}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Conditional Probability}{11}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Normalisation}{11}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Standardisatio}{11}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Least-squared error}{11}{section.5.5}% 
+\contentsline {section}{\numberline {5.6}R-squared error}{11}{section.5.6}% 
+\contentsline {section}{\numberline {5.7}Mean-squared error}{11}{section.5.7}% 
+\contentsline {section}{\numberline {5.8}Inferential Statistics}{11}{section.5.8}% 
+\contentsline {section}{\numberline {5.9}Bias-variance trade off}{11}{section.5.9}% 
