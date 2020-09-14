@@ -110,7 +110,58 @@ q = 1-p,      \text{if $j$ = 0}
 
 The Geometric Distribution is either of two discrete probability distribution described below: \\
 
-1) The probability distribution of the number $X$ of Bernoulli Trials 
+1) The probability distribution of the number $X$ of Bernoulli Trials needed to get one success, supported on the set \{1, 2, 3, ... \}. \\
+
+This geometric distribution, sometimes denoted $Geo(p)$, gives the probability that the \underline{first occurrence} of success requires $k$ independent trials, each with success probability (Bernoulli Trial). The Probability Mass Function (PMF) is (probability that the $k$th trial (out of $k$ trials) is the first success):\\
+\begin{eqnarray}
+P(X=k) = (1 - p)^{k-1} p, k=1,2,3,...
+\label{geo_pdf_1}
+\end{eqnarray}
+
+and the Cumulative Distribution Function (CDF) is:\\
+\begin{eqnarray}
+P(X \le k) = 1 - (1-p)^k
+\label{geo_cdf_1}
+\end{eqnarray}
+
+This distribution is used for modelling the number of trials up to and including the first success.
+
+2) The probability distribution of the number $Y = X - 1$ of failures before the first success, supported on the set \{0, 1, 2, 4, ... \}. \\
+
+This form of geometric distribution is used for modelling the number of failures until the first success:
+
+\begin{eqnarray}
+P(X=k) = (1 - p)^k p, k=0,1,2,3,...
+\label{geo_pdf_2}
+\end{eqnarray}
+
+and the Cumulative Distribution Function (CDF) is:\\
+\begin{eqnarray}
+P(X \le k) = 1 - (1-p)^{k+1}
+\label{geo_cdf_2}
+\end{eqnarray}
+
+The geometric distribution is an appropriate model if the following assumption is true:\\
+1) The phenomenon being  modelled is a sequence of independent trials.\\
+2) There are only two possible outcomes for each trial. \\
+3) The probability of success $p$ is the same for each trial.\\
+
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.09]{geometric_pmf.png}
+	\caption[]{Probability Mass Function (PMF) of geometric distribution for case 1) (left) and case 2) (right).}
+	\label{fairdiepmf}
+	\end{center}
+	\end{figure}
+	
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.09]{geometric_cdf.png}
+	\caption[]{Cumulative Distribution Function (CDF) of geometric distribution for case 1) (left) and case 2) (right).}
+	\label{fairdiepmf}
+	\end{center}
+	\end{figure}
+
 
 \section{Discrete variable: Poisson Distribution}
 
