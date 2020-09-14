@@ -115,7 +115,7 @@ The Geometric Distribution is either of two discrete probability distribution de
 This geometric distribution, sometimes denoted $Geo(p)$, gives the probability that the \underline{first occurrence} of success requires $k$ independent trials, each with success probability (Bernoulli Trial). The Probability Mass Function (PMF) is (probability that the $k$th trial (out of $k$ trials) is the first success):\\
 \begin{eqnarray}
 P(X=k) = (1 - p)^{k-1} p, k=1,2,3,...
-\label{geo_pdf_1}
+\label{geo_pmf_1}
 \end{eqnarray}
 
 and the Cumulative Distribution Function (CDF) is:\\
@@ -132,7 +132,7 @@ This form of geometric distribution is used for modelling the number of failures
 
 \begin{eqnarray}
 P(X=k) = (1 - p)^k p, k=0,1,2,3,...
-\label{geo_pdf_2}
+\label{geo_pmf_2}
 \end{eqnarray}
 
 and the Cumulative Distribution Function (CDF) is:\\
@@ -162,12 +162,72 @@ The geometric distribution is an appropriate model if the following assumption i
 	\end{center}
 	\end{figure}
 
-
 \section{Discrete variable: Poisson Distribution}
 
+The Poisson Distribution is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of times or space if these events occur with a known constant mean rate and independently of the time since the last event. \\
+
+For instance, an individual keeping track of the amount of mail they receive each day may notice that they receive an average number of 4 letters per day. If receiving any particular piece of mail does not affect the arrival times of future pieces of mail, i.e., if pieces of mail from a wide range of sources arrive independently of one another, then a reasonable assumption is that the number of pieces of mail received in a day obeys a Poisson distribution. \\
+
+The Poisson Distribution is popular for modelling the number of times an event occurs in an interval of time or space. A discrete random variable $X$ is said to have a Poisson Distribution with parameter $\lambda > 0$, if, for $k = 0,1,2, ...$, the Probability Mass Function (PMF) of $X$ is given by:
+\begin{eqnarray}
+f(k;\lambda) = P(X=k) = \frac{\lambda^k e^{- \lambda}}{k !} = P(\text{k events in interval})
+\label{poisson_pmf}
+\end{eqnarray}
+where $\lambda$ is equal to the expected value of $X$ and also its variance.\\
+
+The Cumulative Distribution Functions (CDF) is:
+\begin{eqnarray}
+F(k;\lambda) = e^{- \lambda} \sum^{k}_{i=0} \frac{\lambda^i}{i !}
+\label{poisson_cdf}
+\end{eqnarray}
+
+The Poisson Distribution is an appropriate model if the following assumptions are true: \\
+1) $k$ is the number of times an event occurs in an interval and k can take values 0, 1, 2, ...\\
+2) The occurrence of one event does not affect the probability that a second event will occur. That is, events occur independently.\\
+3) The average rate at which events occur is independent of any occurrences. For simplicity, this is usually assumed to be constant, but may in practice vary with time.\\
+4) Two events cannot occur at exactly the same instant; instead, at each very small sub-interval exactly one event either occurs or does not occur.\\
+
+The Poisson Distribution is also the limit of a binomial distribution, , for which the probability of success $p$ for each trial equals to $\frac{\lambda}{\text{num. of trials}}$, as the number of trials goes to infinity. \\
+If the number of Bernoulli trials goes to infinity (or every large), then Binomial distribution can be converted into Poisson distribution. ($p$ will be small, it is a rare event.)
+
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.25]{poisson_pmf.png}
+	\caption[]{Probability Mass Function (PMF) of Poisson distribution.}
+	\label{fairdiepmf}
+	\end{center}
+	\end{figure}
+	
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.07]{poisson_cdf.png}
+	\caption[]{Cumulative Distribution Function (CDF) of Poisson distribution.}
+	\label{fairdiepmf}
+	\end{center}
+	\end{figure}
+	
 \section{Continuous variable: Normal/Gaussian Distribution}
 
+A Normal (Gaussian) distribution is a type of continuous probability distribution for a real-valued random variable. The general form of its Probability Density Function (PDF) is:
+The Cumulative Distribution Functions (CDF) is:
+\begin{eqnarray}
+f(x) = 
+\label{normal_pdf}
+\end{eqnarray}
+
 \section{Continuous variable: Exponential Distribution}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
