@@ -84,7 +84,7 @@ P(2) &=& \binom{4}{2}p^2 (1-p)^{4-2} \\
 
 When multiple Bernoulli trials are performed, each with its own probability of success, these are sometimes referred to as Poisson trials.
 
-\section{Discrete variable: Binomial Distribution}
+\section{Discrete variable: Binomial Distribution, Bin($n, p$)}
 
 The Binomial Distribution with parameters $n$ and $p$, denoted Bin$(n,p)$ is the discrete probability distribution of the number of successes in a sequence of $n$ independent experiments, each asking a yes–no question, and each with its own boolean-valued outcome True (with probability $p$), or failure (with probability $q = 1- p$). A single success or failure experiment is also called a Bernoulli trial. \\
 
@@ -97,7 +97,7 @@ F(k; n, p) = P (X \le k) = \sum_{i=0}^{k} \binom{n}{i} p^i (1-p)^{n-i}
 \end{eqnarray}
 where we just add up all the probability for all the previous $k$ values.
 
-\section{Discrete variable: Bernoulli distribution}
+\section{Discrete variable: Bernoulli distribution, Ber($p$)}
 The Bernoulli distribution is a special case of the binomial distribution, where a single trial is conducted (i.e., a binomial distribution with $n = 1$). The PMF of Bernoulli distribution, over possible outcomes $j$ is:
 \begin{eqnarray}
 f(k;p) = \begin{cases}
@@ -106,7 +106,7 @@ q = 1-p,      \text{if $j$ = 0}
 \end{cases}
 \end{eqnarray}
 
-\section{Discrete variable: Geometric Distribution}
+\section{Discrete variable: Geometric Distribution, Geo($p$)}
 
 The Geometric Distribution is either of two discrete probability distribution described below: \\
 
@@ -162,7 +162,7 @@ The geometric distribution is an appropriate model if the following assumption i
 	\end{center}
 	\end{figure}
 
-\section{Discrete variable: Poisson Distribution}
+\section{Discrete variable: Poisson Distribution, Pois($\lambda$)}
 
 The Poisson Distribution is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of times or space if these events occur with a known constant mean rate and independently of the time since the last event. \\
 
@@ -206,21 +206,95 @@ If the number of Bernoulli trials goes to infinity (or every large), then Binomi
 	\end{center}
 	\end{figure}
 	
-\section{Continuous variable: Normal/Gaussian Distribution}
+\section{Continuous variable: Normal Distribution, $\mathcal{N}(\mu, \sigma^2)$}
 
 A Normal (Gaussian) distribution is a type of continuous probability distribution for a real-valued random variable. The general form of its Probability Density Function (PDF) is:
 The Cumulative Distribution Functions (CDF) is:
 \begin{eqnarray}
-f(x) = 
+f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}
 \label{normal_pdf}
 \end{eqnarray}
+where $\mu$ is the mean or expectation of the distribution (and also its median and mode), while $\sigma$ is the standard deviation. The variance of the distribution is $\sigma^2$.  Note that these $\mu$ and $\sigma$ is associated with Normal Distribution and not the one computed directly from the data. Note also that Normal Distribution are affected by outliers because probability of any event happen more than 4 standard deviations from the mean is very low. \\
 
-\section{Continuous variable: Exponential Distribution}
+Normal distributions are often used in the natural and social sciences to represent real-valued random variables whose distributions are not known. Their importance is partly due to the Central Limit Theorem (CLT). CLT establishes that in some situations, when independent random variables are added, their properly normalized sum tends toward a normal distribution (informally a bell curve), even if the original variables themselves are not normally distributed. \\
 
+The Cumulative Distribution Function (CDF) for Normal Distribution is:
+\begin{eqnarray}
+F(x) = \frac{1}{2}[1 + \text{erf} \; (\frac{x - \mu}{\sigma \sqrt{2}})]
+\label{normal_cdf}
+\end{eqnarray}
+where erf is the error function defined as:
+\begin{eqnarray}
+\text{erf} \; z = \frac{2}{\sqrt{\pi}} \int^{z}_{0} e^{-t^2} dt
+\label{errfunc}
+\end{eqnarray}
 
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.08]{normal_pdf.png}
+	\caption[]{Probability Density Function (PDF) of Normal distribution.}
+	\label{fairdiepmf}
+	\end{center}
+	\end{figure}
+	
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.08]{normal_cdf.png}
+	\caption[]{Cumulative Distribution Function (CDF) of Normal distribution.}
+	\label{fairdiepmf}
+	\end{center}
+	\end{figure}
+	
+About 68\% of values drawn from a normal distribution are within one standard deviation $\sigma$ away from the mean $\mu$. About 95\% of the values lie within two standard deviations and about 99.7\% are within three standard deviations. This is known as the 68-95-99.7 rule. 
 
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.08]{normal_sd.png}
+	\caption[]{Normal distribution with standard deviation}
+	\label{fairdiepmf}
+	\end{center}
+	\end{figure}
+	
 
+\section{Continuous variable: Exponential Distribution, Exp($\lambda$)}
 
+Poisson process:\\
+the timing of the next event is completely independent of when the previous event happened (memoryless).\\
+The number of arrivals of a Poisson process in a given amount of time is Poisson Distributed. \\
+The \underline{waiting time} between arrivals of a Poisson process is Exponentially Distributed. \\
+
+The Probability Density Function (PDF) of an exponential distribution is:
+\begin{eqnarray}
+f(x;\lambda) = \begin{cases}
+\lambda e^{-\lambda x},             x \geq 0\\
+0,      x < 0
+\end{cases}
+\end{eqnarray}
+where $\lambda$ is the rate parameter used in the Poisson Distribution. \\
+
+The Cumulative Distribution Function (CDF) is given by:
+\begin{eqnarray}
+F(x;\lambda) = \begin{cases}
+1 - e^{-\lambda x},             x \geq 0\\
+0,      x < 0
+\end{cases}
+\end{eqnarray}
+
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.1]{exponential_pdf.png}
+	\caption[]{Probability Density Function (PDF) of Exponential Distribution.}
+	\label{fairdiepmf}
+	\end{center}
+	\end{figure}
+	
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.07]{exponential_cdf.png}
+	\caption[]{Cumulative Distribution Function (CDF)of Exponential Distribution}
+	\label{fairdiepmf}
+	\end{center}
+	\end{figure}
 
 
 
