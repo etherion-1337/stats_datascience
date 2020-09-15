@@ -6,13 +6,56 @@
 
 \chapter{Metrics}
 
+\section{Variance, $\sigma^2$ or Var($X$)}
 
+Variance is the expectation of the \underline{squared} deviation of a random variable from its \underline{mean}.  Note that the unit of variance is the square of the variable's unit. \\
 
-\section{ROC}
+1) discrete random variable\\
+This is for discrete random variable (applicable to most dataset), if the generator of random variable $X$ is discrete with Probability Mass Function (PMF) that maps value $x_i$ to probability $p_i$, (certain $x_i$ and $p_i$ pairs can be same value due to same $x$ value in the dataset) then the variance will be:
+\begin{eqnarray}
+Var(X) = \sum_{i=1}^{n} p_i (x_i - \mu)^2
+\label{variancedis}
+\end{eqnarray}
+where $\mu$ is the expected value:
+\begin{eqnarray}
+\mu = \sum_{i=1}^{n} p_i x_i
+\label{expected}
+\end{eqnarray}
 
-\section{Standard Deviation}
+If the each value in the $n$ data points are equally likely, then the variance will be:
+\begin{eqnarray}
+Var(X)= \frac{1}{n}\sum^{n}_{i=1}(x_i - \mu)^2
+\label{variancediseq}
+\end{eqnarray}
 
-\section{Variance}
+2) continuous random variable\\
+If the random variable $X$ has a Probability Density Function (PDF) $f(x)$, then the variance will be:
+\begin{eqnarray}
+Var(X) = \int_{\mathbb{R}} (x - \mu)^2 f(x) dx
+\label{variancecon}
+\end{eqnarray}
+where $\mu$ is the expected value:
+\begin{eqnarray}
+\mu = \int_{\mathbb{R}} xf(x)dx
+\label{expectedcon}
+\end{eqnarray}
+
+\section{Standard Deviation, $\sigma$}
+
+The standard deviation is a measure of the amount of variation or dispersion of a set of values. For both discrete and continuous random variable, the standard deviations are $\sqrt{\text{variance}}$ and note that this quantity has the same physical units as the random variable. \\
+
+\section{Standard Error}
+
+The standard error is a type of standard deviation for the distribution of the means. \\
+
+There will be, of course, different means for different samples (from the same population), this is called “sampling distribution of the mean”. This variance between the means of different samples can be estimated by the standard deviation of this sampling distribution and it is the standard error of the estimate of the mean. Standard error measures the precision of the estimate of the sample mean. The standard error is strictly dependent on the sample size and thus the standard error falls as the sample size increases. It makes total sense if you think about it, the bigger the sample, the closer the sample mean is to the population mean and thus the estimate of it is closer to the actual value.
+\begin{eqnarray}
+\text{Standard Error} = \frac{\sigma}{\sqrt{n}}
+\label{se}
+\end{eqnarray}
+where $\sigma$ is the standard deviation of the population (although sometimes population standard deviation is unknown, we can replace it with sample standard deviation as an estimate) and $n$ is the size (number of observations) of the sample.
+
+\section{Confidence Interval}
 
 \section{Confusion Matrix}
 
@@ -21,6 +64,8 @@
 \subsection{Precision}
 
 \subsection{F1}
+
+\section{ROC}
 
 \section{P value}
 
