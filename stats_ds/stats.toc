@@ -13,17 +13,18 @@
 \contentsline {section}{\numberline {2.1}Variance, $\sigma ^2$ or Var($X$)}{13}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}Standard Deviation, $\sigma $}{14}{section.2.2}% 
 \contentsline {section}{\numberline {2.3}Standard Error}{14}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Confidence Interval}{15}{section.2.4}% 
-\contentsline {section}{\numberline {2.5}Confusion Matrix}{15}{section.2.5}% 
-\contentsline {subsection}{\numberline {2.5.1}Recall}{15}{subsection.2.5.1}% 
-\contentsline {subsection}{\numberline {2.5.2}Precision}{15}{subsection.2.5.2}% 
-\contentsline {subsection}{\numberline {2.5.3}F1}{15}{subsection.2.5.3}% 
-\contentsline {section}{\numberline {2.6}ROC}{15}{section.2.6}% 
-\contentsline {section}{\numberline {2.7}P value}{15}{section.2.7}% 
-\contentsline {section}{\numberline {2.8}T value}{15}{section.2.8}% 
-\contentsline {section}{\numberline {2.9}Z value}{15}{section.2.9}% 
-\contentsline {section}{\numberline {2.10}Correlation/Pearson}{15}{section.2.10}% 
-\contentsline {section}{\numberline {2.11}Covariance}{15}{section.2.11}% 
+\contentsline {section}{\numberline {2.4}Confusion Matrix}{15}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Recall}{15}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.2}Precision}{15}{subsection.2.4.2}% 
+\contentsline {subsection}{\numberline {2.4.3}F1}{15}{subsection.2.4.3}% 
+\contentsline {section}{\numberline {2.5}ROC}{15}{section.2.5}% 
+\contentsline {section}{\numberline {2.6}Correlation/Pearson}{15}{section.2.6}% 
+\contentsline {section}{\numberline {2.7}Covariance}{15}{section.2.7}% 
+\contentsline {section}{\numberline {2.8}Confidence Interval}{15}{section.2.8}% 
+\contentsline {section}{\numberline {2.9}Confidence Level}{15}{section.2.9}% 
+\contentsline {section}{\numberline {2.10}P value}{15}{section.2.10}% 
+\contentsline {section}{\numberline {2.11}T value}{15}{section.2.11}% 
+\contentsline {section}{\numberline {2.12}Z value}{15}{section.2.12}% 
 \contentsline {chapter}{\numberline {3}Testing}{16}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}T test}{17}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Chi-square test}{17}{section.3.2}% 
