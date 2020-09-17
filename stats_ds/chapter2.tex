@@ -57,13 +57,60 @@ where $\sigma$ is the standard deviation of the population (although sometimes p
 
 \section{Confusion Matrix}
 
+The confusion matrix is a table specifically for the problem of statistical classification. A typical confusion matrix table is shown below:
+
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.5]{confuse.png}
+	\caption[]{Confusion Matrix}
+	\label{confusing}
+	\end{center}
+	\end{figure}
+
+where:\\
+TP : True Positive or Hit \\
+TN : True Negative or Correct Rejection\\
+FP : False Positive or Type I error\\
+FN : False Negative or Type II error\\
+
+A more graphical way of seeing this is shown in Fig. (\ref{precisionrecall}).
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.15]{precisionrecall.png}
+	\caption[]{Graphical representation of confusion matrix}
+	\label{precisionrecall}
+	\end{center}
+	\end{figure}
+	
+	
+	
 \subsection{Recall}
+
+Recall is also called Sensitivity or True Positive Rate (TPR), it measures how many relevant items are selected (among the total numbers of relevant elements):
+\begin{eqnarray}
+\text{Recall} = \frac{\text{True Positive}}{\text{True Positive}+\text{False Negative}}
+\label{recall}
+\end{eqnarray} 
 
 \subsection{Precision}
 
-\subsection{F1}
+Precision is also called Positive Predictive Value (PPV), it measures how many selected items are relevant:
+\begin{eqnarray}
+\text{Precision} = \frac{\text{True Positive}}{\text{True Positive}+\text{False Positive}}
+\label{precision}
+\end{eqnarray} 
+
+\subsection{$F_1$}
+
+The $F_1$ score is a measure of a test's accuracy. It is basically the harmonic mean of the precision and recall. The highest possible $F_1$ score is 1, indicating perfect precision and recall, and the lowest possible score is 0, if either precision or recall is 0.
+\begin{eqnarray}
+F_1 = 2 \times \frac{\text{precision}\times\text{recall}}{\text{precision} + \text{recall}}
+\label{f1}
+\end{eqnarray} 
 
 \section{ROC}
+
+
 
 \section{Correlation/Pearson}
 

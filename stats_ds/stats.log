@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.19)  15 SEP 2020 22:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.19)  17 SEP 2020 23:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -927,7 +927,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<chapter1graph/Fair_dice_probability_distribution.png, id=317, 2890.8pt x 1259.
+<chapter1graph/Fair_dice_probability_distribution.png, id=322, 2890.8pt x 1259.
 70625pt>
 File: chapter1graph/Fair_dice_probability_distribution.png Graphic file (type p
 ng)
@@ -950,7 +950,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-<chapter1graph/pdf_visual.png, id=327, 1027.84pt x 1761.58125pt>
+<chapter1graph/pdf_visual.png, id=332, 1027.84pt x 1761.58125pt>
 File: chapter1graph/pdf_visual.png Graphic file (type png)
 <use chapter1graph/pdf_visual.png>
 Package pdftex.def Info: chapter1graph/pdf_visual.png  used on input line 48.
@@ -1039,13 +1039,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--148
  []
 
 [6]
-<chapter1graph/geometric_pmf.png, id=366, 2890.8pt x 1233.60875pt>
+<chapter1graph/geometric_pmf.png, id=371, 2890.8pt x 1233.60875pt>
 File: chapter1graph/geometric_pmf.png Graphic file (type png)
 <use chapter1graph/geometric_pmf.png>
 Package pdftex.def Info: chapter1graph/geometric_pmf.png  used on input line 15
 1.
 (pdftex.def)             Requested size: 260.16078pt x 111.01999pt.
-<chapter1graph/geometric_cdf.png, id=367, 2890.8pt x 1233.60875pt>
+<chapter1graph/geometric_cdf.png, id=372, 2890.8pt x 1233.60875pt>
 File: chapter1graph/geometric_cdf.png Graphic file (type png)
 <use chapter1graph/geometric_cdf.png>
 Package pdftex.def Info: chapter1graph/geometric_cdf.png  used on input line 15
@@ -1084,7 +1084,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--189
 
  []
 
-<chapter1graph/poisson_pmf.png, id=374, 652.4375pt x 521.95pt>
+<chapter1graph/poisson_pmf.png, id=379, 652.4375pt x 521.95pt>
 File: chapter1graph/poisson_pmf.png Graphic file (type png)
 <use chapter1graph/poisson_pmf.png>
 Package pdftex.def Info: chapter1graph/poisson_pmf.png  used on input line 195.
@@ -1093,7 +1093,7 @@ Package pdftex.def Info: chapter1graph/poisson_pmf.png  used on input line 195.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapter1graph/poisson_cdf.png, id=375, 2569.6pt x 2055.68pt>
+<chapter1graph/poisson_cdf.png, id=380, 2569.6pt x 2055.68pt>
 File: chapter1graph/poisson_cdf.png Graphic file (type png)
 <use chapter1graph/poisson_cdf.png>
 Package pdftex.def Info: chapter1graph/poisson_cdf.png  used on input line 203.
@@ -1132,12 +1132,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
-<chapter1graph/normal_pdf.png, id=397, 2890.8pt x 1846.9pt>
+<chapter1graph/normal_pdf.png, id=402, 2890.8pt x 1846.9pt>
 File: chapter1graph/normal_pdf.png Graphic file (type png)
 <use chapter1graph/normal_pdf.png>
 Package pdftex.def Info: chapter1graph/normal_pdf.png  used on input line 234.
 (pdftex.def)             Requested size: 231.26872pt x 147.75502pt.
-<chapter1graph/normal_cdf.png, id=398, 2890.8pt x 1846.9pt>
+<chapter1graph/normal_cdf.png, id=403, 2890.8pt x 1846.9pt>
 File: chapter1graph/normal_cdf.png Graphic file (type png)
 <use chapter1graph/normal_cdf.png>
 Package pdftex.def Info: chapter1graph/normal_cdf.png  used on input line 242.
@@ -1145,7 +1145,7 @@ Package pdftex.def Info: chapter1graph/normal_cdf.png  used on input line 242.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapter1graph/normal_sd.png, id=399, 2890.8pt x 1445.4pt>
+<chapter1graph/normal_sd.png, id=404, 2890.8pt x 1445.4pt>
 File: chapter1graph/normal_sd.png Graphic file (type png)
 <use chapter1graph/normal_sd.png>
 Package pdftex.def Info: chapter1graph/normal_sd.png  used on input line 252.
@@ -1176,13 +1176,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--274
  []
 
 [11 <./chapter1graph/normal_cdf.png> <./chapter1graph/normal_sd.png>]
-<chapter1graph/exponential_pdf.png, id=417, 1927.2pt x 1679.27374pt>
+<chapter1graph/exponential_pdf.png, id=422, 1927.2pt x 1679.27374pt>
 File: chapter1graph/exponential_pdf.png Graphic file (type png)
 <use chapter1graph/exponential_pdf.png>
 Package pdftex.def Info: chapter1graph/exponential_pdf.png  used on input line 
 285.
 (pdftex.def)             Requested size: 192.7313pt x 167.93721pt.
-<chapter1graph/exponential_cdf.png, id=418, 2569.6pt x 2055.68pt>
+<chapter1graph/exponential_cdf.png, id=423, 2569.6pt x 2055.68pt>
 File: chapter1graph/exponential_cdf.png Graphic file (type png)
 <use chapter1graph/exponential_cdf.png>
 Package pdftex.def Info: chapter1graph/exponential_cdf.png  used on input line 
@@ -1246,80 +1246,98 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-[14]) (./chapter3.tex [15]
-Chapter 3.
-) (./chapter4.tex [16
+[14]
+<chapter2graph/confuse.png, id=447, 215.80624pt x 157.58875pt>
+File: chapter2graph/confuse.png Graphic file (type png)
+<use chapter2graph/confuse.png>
+Package pdftex.def Info: chapter2graph/confuse.png  used on input line 64.
+(pdftex.def)             Requested size: 107.90285pt x 78.79417pt.
 
-] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 70--75
+
+ []
+
+<chapter2graph/precisionrecall.png, id=449, 1027.84pt x 1868.9825pt>
+File: chapter2graph/precisionrecall.png Graphic file (type png)
+<use chapter2graph/precisionrecall.png>
+Package pdftex.def Info: chapter2graph/precisionrecall.png  used on input line 
+79.
+(pdftex.def)             Requested size: 154.16934pt x 280.33528pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15 <./chapter2graph/confuse.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 103.
+
+) (./chapter3.tex [16 <./chapter2graph/precisionrecall.png>] [17]
+Chapter 3.
+) (./chapter4.tex [18
+
+] [19]
 Chapter 4.
-) (./chapter5.tex [18
+) (./chapter5.tex [20
 
 ]
 Chapter 5.
 )
 No file stats.bbl.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
-[19
+[21
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
  (./stats.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
+Package rerunfilecheck Info: File `stats.out' has not changed.
+(rerunfilecheck)             Checksum: 2A70A65D8786B3738FE1C1B131DFC0A4;3928.
 
-
-Package rerunfilecheck Warning: File `stats.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `stats.out':
-(rerunfilecheck)             Before: B34487B66EB11656A0A71F2F0D88C855;3864
-(rerunfilecheck)             After:  2A70A65D8786B3738FE1C1B131DFC0A4;3928.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15372 strings out of 492616
- 248115 string characters out of 6129481
+ 15424 strings out of 492616
+ 249047 string characters out of 6129481
  404578 words of memory out of 5000000
- 18795 multiletter control sequences out of 15000+600000
- 34912 words of font info for 138 fonts, out of 8000000 for 9000
+ 18836 multiletter control sequences out of 15000+600000
+ 38036 words of font info for 151 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,18n,94p,934b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.2.5.3} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.5.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.5.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
-/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
-ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
-al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
-ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
-19/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019
-/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/
-2019/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/20
-19/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2019
-/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2019/t
-exmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2019/tex
-mf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2019/texmf
--dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on stats.pdf (23 pages, 1638803 bytes).
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
+2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/
+2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2019/tex
+mf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on stats.pdf (25 pages, 1739927 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
- 490 compressed objects within 5 object streams
- 120 named destinations out of 1000 (max. 500000)
- 20480 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 578 PDF objects out of 1000 (max. 8388607)
+ 505 compressed objects within 6 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 23058 words of extra memory for PDF output out of 24883 (max. 10000000)
 
