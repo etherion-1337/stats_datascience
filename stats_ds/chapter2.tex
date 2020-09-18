@@ -110,11 +110,72 @@ F_1 = 2 \times \frac{\text{precision}\times\text{recall}}{\text{precision} + \te
 
 \section{ROC}
 
+The Receiver Operating Characteristic Curve, or ROC curve, is a graphic plot that illustrates the diagnostic ability of a binary classifier system as its \underline{discrimination threshold is varied}. \\
 
+To obtain the ROC curve, we need to plot the True Positive Rate (TPR) against the False Positive Rate (FPR):\\
+True Positive Rate (TPR): also known as Sensitivity, Recall.\\
+False Positive Rate (FPR): $\frac{\text{FP}}{\text{FP}+\text{TN} \text{(i.e. total actual negative)}}$, and is basically $1 - \text{Specificity}$.\\
+
+
+In an ROC curve, the best possible prediction model would yield a point (for a certain discrimination threshold) in the upper left corner. This represent $100\%$ Recall (No False Negative) and $100\%$ Specificity (No False Positive). A \underline{random guess} would give a point along a diagonal line. An intuitive example of random guessing is a decision by flipping coins. As the size of the sample increases, a random classifier's ROC point tends towards the diagonal line, specifically for the case of a fair coin, it will tend to the point (0.5, 0.5)\\
+
+The diagonal divides the ROC space. Points above the diagonal represent good classification results (better than random); points below the line represent bad results (worse than random). The table below shows 4 prediction model for 100 positive and 100 negative instances:
+
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.4]{roc_models.png}
+	\caption[]{The prediction from 4 models, each at a certain discrimination threshold.}
+	\label{precisionrecall}
+	\end{center}
+	\end{figure}
+	
+Plots of the four models in the ROC space is given below. The result of A clearly shows the best predictive power among A, B, C. The result from B lies on the random guess line, and it can be seen in the table that the accuracy of B is $50\%$. However, when C is mirrored across the center point (0.5, 0.5), the resulting model C' is even better than A. This mirrored method simply reverse the predictions from C. \\
+
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.5]{ROC_space.png}
+	\caption[]{The prediction from 4 models, each at a certain discrimination threshold.}
+	\label{precisionrecall}
+	\end{center}
+	\end{figure}
+	
+The closer the model can be at towards the upper left corner, the better. But the distance from the random guess line in either direction is the best indicator of how much predictive power a method has. If the result is below the line, all of the model's predictions must be reversed in order to utilize its power. Note that the output of a consistently bad predictor could simply be inverted to obtain a good predictor.
+
+\subsection{In the context of logistic regression}
+
+For binary classification, given certain features, logistic regression will output a probability $p$, with respect to the target variable.\\
+if $p$ > 0.5, we label the data as 1;\\
+if $p$ < 0.5, we label the data as 0;\\
+By default the threshold is 0.5.\\
+
+When the threshold = 0 , the model will predict 1 for all, which means that both TPR and FPR will be 1.\\
+When the threshold = 1, the model will predict 0 for all, which means that both TPR and FPR will be 0.\\
+
+If we vary the threshold between these 2 extremes, we will have a series of TPR and FPR pairs. If we try all possible threshold then we can map out the ROC curve for this particular model.
+
+ \begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.5]{lr_roc.png}
+	\caption[]{ROC curve for a logistic regression model.}
+	\label{precisionrecall}
+	\end{center}
+	\end{figure}
+	
+When using normalised unit, the area under the curve (AUC) is the probability that a classifier will rank a randomly chosen positive instance higher than a randomly chosen negative ones. (assuming that positive rank higher than negative in the dataset).
+	
+\section{Covariance}
+
+The covariance is a measure of the joint variability of two random variables. If the greater values of one variable mainly correspond with the greater values of the other variable, and the same holds for the lesser values, (i.e. the variables tend to show similar behaviour), then the covariance is positive. In the opposite case, when the greater values of one variable mainly correspond to the lesser values of the other (i.e. the variables tend to show opposite behaviour), then the covariance is negative.
+
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.1]{covariance_trends.png}
+	\caption[]{The sign of the covariance of two random variables $X$ and $Y$.}
+	\label{precisionrecall}
+	\end{center}
+	\end{figure}
 
 \section{Correlation/Pearson}
-
-\section{Covariance}
 
 \section{Confidence Interval}
 

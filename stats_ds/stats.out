@@ -18,41 +18,42 @@
 \BOOKMARK [2][-]{subsection.2.4.2}{Precision}{section.2.4}% 18
 \BOOKMARK [2][-]{subsection.2.4.3}{F1}{section.2.4}% 19
 \BOOKMARK [1][-]{section.2.5}{ROC}{chapter.2}% 20
-\BOOKMARK [1][-]{section.2.6}{Correlation/Pearson}{chapter.2}% 21
-\BOOKMARK [1][-]{section.2.7}{Covariance}{chapter.2}% 22
-\BOOKMARK [1][-]{section.2.8}{Confidence Interval}{chapter.2}% 23
-\BOOKMARK [1][-]{section.2.9}{Confidence Level}{chapter.2}% 24
-\BOOKMARK [1][-]{section.2.10}{P value}{chapter.2}% 25
-\BOOKMARK [1][-]{section.2.11}{T value}{chapter.2}% 26
-\BOOKMARK [1][-]{section.2.12}{Z value}{chapter.2}% 27
-\BOOKMARK [0][-]{chapter.3}{Testing}{}% 28
-\BOOKMARK [1][-]{section.3.1}{T test}{chapter.3}% 29
-\BOOKMARK [1][-]{section.3.2}{Chi-square test}{chapter.3}% 30
-\BOOKMARK [1][-]{section.3.3}{Z test}{chapter.3}% 31
-\BOOKMARK [1][-]{section.3.4}{A/B testing}{chapter.3}% 32
-\BOOKMARK [2][-]{subsection.3.4.1}{Null hypothesis}{section.3.4}% 33
-\BOOKMARK [2][-]{subsection.3.4.2}{Alternative hypothesis}{section.3.4}% 34
-\BOOKMARK [2][-]{subsection.3.4.3}{Type I/II error}{section.3.4}% 35
-\BOOKMARK [2][-]{subsection.3.4.4}{Statistical Power}{section.3.4}% 36
-\BOOKMARK [1][-]{section.3.5}{Test of Significance}{chapter.3}% 37
-\BOOKMARK [1][-]{section.3.6}{Hypothesis testing \(one-way and two-way\)}{chapter.3}% 38
-\BOOKMARK [1][-]{section.3.7}{ANOVA}{chapter.3}% 39
-\BOOKMARK [1][-]{section.3.8}{ANCOVA}{chapter.3}% 40
-\BOOKMARK [1][-]{section.3.9}{One-sample/Two-sample bootstrap hypothesis test}{chapter.3}% 41
-\BOOKMARK [1][-]{section.3.10}{Time series: p, d, q parameters, unit root and box test}{chapter.3}% 42
-\BOOKMARK [0][-]{chapter.4}{Thoerem}{}% 43
-\BOOKMARK [1][-]{section.4.1}{Central Limit Theorem}{chapter.4}% 44
-\BOOKMARK [1][-]{section.4.2}{Law of the large number}{chapter.4}% 45
-\BOOKMARK [1][-]{section.4.3}{Naive Bayes Algorithm}{chapter.4}% 46
-\BOOKMARK [1][-]{section.4.4}{Bayesian Statistics/Bayes Theorem}{chapter.4}% 47
-\BOOKMARK [1][-]{section.4.5}{Sampling Theory}{chapter.4}% 48
-\BOOKMARK [0][-]{chapter.5}{General}{}% 49
-\BOOKMARK [1][-]{section.5.1}{Confidence Interval}{chapter.5}% 50
-\BOOKMARK [1][-]{section.5.2}{Conditional Probability}{chapter.5}% 51
-\BOOKMARK [1][-]{section.5.3}{Normalisation}{chapter.5}% 52
-\BOOKMARK [1][-]{section.5.4}{Standardisatio}{chapter.5}% 53
-\BOOKMARK [1][-]{section.5.5}{Least-squared error}{chapter.5}% 54
-\BOOKMARK [1][-]{section.5.6}{R-squared error}{chapter.5}% 55
-\BOOKMARK [1][-]{section.5.7}{Mean-squared error}{chapter.5}% 56
-\BOOKMARK [1][-]{section.5.8}{Inferential Statistics}{chapter.5}% 57
-\BOOKMARK [1][-]{section.5.9}{Bias-variance trade off}{chapter.5}% 58
+\BOOKMARK [2][-]{subsection.2.5.1}{In the context of logistic regression}{section.2.5}% 21
+\BOOKMARK [1][-]{section.2.6}{Covariance}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.7}{Correlation/Pearson}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.8}{Confidence Interval}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.9}{Confidence Level}{chapter.2}% 25
+\BOOKMARK [1][-]{section.2.10}{P value}{chapter.2}% 26
+\BOOKMARK [1][-]{section.2.11}{T value}{chapter.2}% 27
+\BOOKMARK [1][-]{section.2.12}{Z value}{chapter.2}% 28
+\BOOKMARK [0][-]{chapter.3}{Testing}{}% 29
+\BOOKMARK [1][-]{section.3.1}{T test}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.2}{Chi-square test}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.3}{Z test}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.4}{A/B testing}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.4.1}{Null hypothesis}{section.3.4}% 34
+\BOOKMARK [2][-]{subsection.3.4.2}{Alternative hypothesis}{section.3.4}% 35
+\BOOKMARK [2][-]{subsection.3.4.3}{Type I/II error}{section.3.4}% 36
+\BOOKMARK [2][-]{subsection.3.4.4}{Statistical Power}{section.3.4}% 37
+\BOOKMARK [1][-]{section.3.5}{Test of Significance}{chapter.3}% 38
+\BOOKMARK [1][-]{section.3.6}{Hypothesis testing \(one-way and two-way\)}{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.7}{ANOVA}{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.8}{ANCOVA}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.9}{One-sample/Two-sample bootstrap hypothesis test}{chapter.3}% 42
+\BOOKMARK [1][-]{section.3.10}{Time series: p, d, q parameters, unit root and box test}{chapter.3}% 43
+\BOOKMARK [0][-]{chapter.4}{Thoerem}{}% 44
+\BOOKMARK [1][-]{section.4.1}{Central Limit Theorem}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.2}{Law of the large number}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.3}{Naive Bayes Algorithm}{chapter.4}% 47
+\BOOKMARK [1][-]{section.4.4}{Bayesian Statistics/Bayes Theorem}{chapter.4}% 48
+\BOOKMARK [1][-]{section.4.5}{Sampling Theory}{chapter.4}% 49
+\BOOKMARK [0][-]{chapter.5}{General}{}% 50
+\BOOKMARK [1][-]{section.5.1}{Confidence Interval}{chapter.5}% 51
+\BOOKMARK [1][-]{section.5.2}{Conditional Probability}{chapter.5}% 52
+\BOOKMARK [1][-]{section.5.3}{Normalisation}{chapter.5}% 53
+\BOOKMARK [1][-]{section.5.4}{Standardisatio}{chapter.5}% 54
+\BOOKMARK [1][-]{section.5.5}{Least-squared error}{chapter.5}% 55
+\BOOKMARK [1][-]{section.5.6}{R-squared error}{chapter.5}% 56
+\BOOKMARK [1][-]{section.5.7}{Mean-squared error}{chapter.5}% 57
+\BOOKMARK [1][-]{section.5.8}{Inferential Statistics}{chapter.5}% 58
+\BOOKMARK [1][-]{section.5.9}{Bias-variance trade off}{chapter.5}% 59
