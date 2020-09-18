@@ -174,8 +174,27 @@ The covariance is a measure of the joint variability of two random variables. If
 	\label{precisionrecall}
 	\end{center}
 	\end{figure}
+	
+The description above is for covariance of two random variables. We also have sample covariance. The formula to calculate covariance is:\\
+\begin{eqnarray}
+\text{covariance} = \frac{1}{n} \sum^{n}_{i =1} (x_i - \mu_x)(y_i - \mu_y)
+\label{covariance}
+\end{eqnarray}
+where $\mu_x$ and $\mu_y$ are the mean of $x$ and $y$ in the dataset. When both $x$ and $y$ increase or decrease together, then they are positively correlated.
 
-\section{Correlation/Pearson}
+\section{Pearson's Correlation Coefficient}
+
+The correlation or dependence is any statistical relationship, whether causal or not, between two random variables or bivariate data. The most familiar measure of dependence between two quantity is the \underline{Pearson product-moment correlation coefficient}, or Pearson's Correlation Coefficient. This coefficient is dimensionless and takes value between (-1, 1). The correlation coefficient is +1 in the case of a perfect directly (increasing) linear relationship, -1 in the case of a perfect inverse linear relationship. \\
+
+If the variables are independent, Pearson's Correlation Coefficient is 0. But the converse is not true, because the correlation coefficient detects only linear dependencies between two variables.\\
+
+The Pearson Correlation Coefficient $\rho_{X,Y}$ between two random variables $X$ and $Y$ with standard deviation $\sigma_X$ and $\sigma_Y$ is defined as:
+\begin{eqnarray}
+\rho_{X,Y} = \frac{\text{covariance($X$, $Y$)}}{\sigma_X \sigma_Y}
+\label{pearson}
+\end{eqnarray}
+The Pearson Correlation is only defined only if both standard deviation are finite and positive. 
+
 
 \section{Confidence Interval}
 
