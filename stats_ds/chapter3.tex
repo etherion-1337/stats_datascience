@@ -12,16 +12,61 @@
 \section{Z test}
 
 \section{A/B testing}
+\label{abtest}
 
-\subsection{Null hypothesis}
+A/B testing (also known as bucket testing or split-run testing) is a user experience research methodology. A/B tests consist of a randomised experiment with with two variants, A and B. It includes application of \underline{statistical hypothesis testing} (Null vs Alternative hypothesis) or two-sample hypothesis testing. \\
 
-\subsection{Alternative hypothesis}
+
+\subsection{Null hypothesis $H_0$}
+
+The Null hypothesis usually states that there is no difference between groups in study. For example: there is no relationship between the risk factor (or treatment) being studied AND the occurrence of the health outcome in a medical study. (In this case, Group A is a placebo group and Group B receiving a new drugs).
+
+\subsection{Alternative hypothesis $H_1$}
+
+The Alternative hypothesis states that there is a difference between groups in study. There IS a relationship between the treatment or risk factor AND the outcomes of the experiment.\\
+
+By default, we assume that the Null Hypothesis is true, until we have enough evidence to support rejecting this hypothesis. A bummer if Null Hypothesis is True. \\
+
+But we can NEVER prove the Alternative Hypothesis is true, the best we can do is to REJECT a hypothesis (saying it is false) or FAIL to reject a hypothesis (could be true, but never sure). So usually we want to reject the Null Hypothesis, because that is the as close as we can get to prove the Alternative Hypothesis.
 
 \subsection{Type I/II error}
 
+Rejecting the Null Hypothesis when $H_0$ is True is called Type I error (also known as False Positive), i.e. the researcher say there is a difference between the groups when there really isn't. This error is usually the focus because researcher wants to show $H_0$ is False. The probability of making a Type I error is called $\alpha$, 
+
+Type II error (also known as False Negative) is when we failed to reject $H_0$ when we should reject it. The probability of making a Type II error is called $\beta$. 
+
 \subsection{Statistical Power}
 
-\section{Test of Significance}
+Power = probability of finding a difference between groups if one truly exist. (i.e. $H_0$ is False)\\
+= probability of not making a Type II Error \\
+= $1 - \beta$\\
+
+A good power is around 0.8. Power matters during experiment design. We should do power calculations based on projections.\\
+
+Power increases when:\\
+1) increase in sample size. i.e. you have more data to make a conclusion.\\
+2) (big) actual difference between groups, i.e. effect size\\
+3) (good) precision of results, i.e. multiple samples show consistent results instead of all over the place.\\
+
+\subsection{Test of Significance}
+
+A common indicator when testing significance is the p-value. \\
+
+p-value is the probability of obtaining a sample more extreme than the ones observed in our data, assuming $H_0$ is True. If this value is low, then it means either our power is low or there is a low probability of observing this value if the Null Hypothesis is True. This represents a measure of evidence against retaining $H_0$. We don't have to prove $H_0$ to use this, we just assume it is true before using the p-value.\\
+
+For example, we can calculate z-test value for a right tailed test assuming normal distribution. Then the p-value is just the area under the curve to the right of the z-test score.   \\
+
+What determines if p-value is low or high ?\\
+We use $\alpha$, which is also called level of significance. It is a selected cut-off point to determine if the p-value is acceptably high or low.\\
+
+We define our probability of not making type I error as the confidence level, a common value for this is 0.95.\\
+
+Standard p-value:\\
+<0.01: very strong evidence against the Null hypothesis.\\
+0.01 - 0.05: strong evidence against the Null hypothesis.\\
+0.05 - 0.10: very weak evidence against the Null hypothesis. \\
+more than 0.1: small to no evidence against the Null hypothesis. \\
+
 
 \section{Hypothesis testing (one-way and two-way)}
 

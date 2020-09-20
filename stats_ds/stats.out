@@ -31,16 +31,16 @@
 \BOOKMARK [1][-]{section.3.2}{Chi-square test}{chapter.3}% 31
 \BOOKMARK [1][-]{section.3.3}{Z test}{chapter.3}% 32
 \BOOKMARK [1][-]{section.3.4}{A/B testing}{chapter.3}% 33
-\BOOKMARK [2][-]{subsection.3.4.1}{Null hypothesis}{section.3.4}% 34
-\BOOKMARK [2][-]{subsection.3.4.2}{Alternative hypothesis}{section.3.4}% 35
+\BOOKMARK [2][-]{subsection.3.4.1}{Null hypothesis H0}{section.3.4}% 34
+\BOOKMARK [2][-]{subsection.3.4.2}{Alternative hypothesis H1}{section.3.4}% 35
 \BOOKMARK [2][-]{subsection.3.4.3}{Type I/II error}{section.3.4}% 36
 \BOOKMARK [2][-]{subsection.3.4.4}{Statistical Power}{section.3.4}% 37
-\BOOKMARK [1][-]{section.3.5}{Test of Significance}{chapter.3}% 38
-\BOOKMARK [1][-]{section.3.6}{Hypothesis testing \(one-way and two-way\)}{chapter.3}% 39
-\BOOKMARK [1][-]{section.3.7}{ANOVA}{chapter.3}% 40
-\BOOKMARK [1][-]{section.3.8}{ANCOVA}{chapter.3}% 41
-\BOOKMARK [1][-]{section.3.9}{One-sample/Two-sample bootstrap hypothesis test}{chapter.3}% 42
-\BOOKMARK [1][-]{section.3.10}{Time series: p, d, q parameters, unit root and box test}{chapter.3}% 43
+\BOOKMARK [2][-]{subsection.3.4.5}{Test of Significance}{section.3.4}% 38
+\BOOKMARK [1][-]{section.3.5}{Hypothesis testing \(one-way and two-way\)}{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.6}{ANOVA}{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.7}{ANCOVA}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.8}{One-sample/Two-sample bootstrap hypothesis test}{chapter.3}% 42
+\BOOKMARK [1][-]{section.3.9}{Time series: p, d, q parameters, unit root and box test}{chapter.3}% 43
 \BOOKMARK [0][-]{chapter.4}{Thoerem}{}% 44
 \BOOKMARK [1][-]{section.4.1}{Central Limit Theorem}{chapter.4}% 45
 \BOOKMARK [1][-]{section.4.2}{Law of the large number}{chapter.4}% 46
