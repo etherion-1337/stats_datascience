@@ -27,33 +27,33 @@
 \contentsline {section}{\numberline {2.11}T value}{21}{section.2.11}% 
 \contentsline {section}{\numberline {2.12}Z value}{21}{section.2.12}% 
 \contentsline {chapter}{\numberline {3}Testing}{24}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}T test}{24}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Chi-square test}{24}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Z test}{24}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}A/B testing}{26}{section.3.4}% 
-\contentsline {subsection}{\numberline {3.4.1}Null hypothesis $H_0$}{26}{subsection.3.4.1}% 
-\contentsline {subsection}{\numberline {3.4.2}Alternative hypothesis $H_1$}{26}{subsection.3.4.2}% 
-\contentsline {subsection}{\numberline {3.4.3}Type I/II error}{27}{subsection.3.4.3}% 
-\contentsline {subsection}{\numberline {3.4.4}Statistical Power}{27}{subsection.3.4.4}% 
-\contentsline {subsection}{\numberline {3.4.5}Test of Significance}{27}{subsection.3.4.5}% 
-\contentsline {section}{\numberline {3.5}Hypothesis testing (one-way and two-way)}{29}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}ANOVA}{29}{section.3.6}% 
-\contentsline {section}{\numberline {3.7}ANCOVA}{29}{section.3.7}% 
-\contentsline {section}{\numberline {3.8}One-sample/Two-sample bootstrap hypothesis test}{29}{section.3.8}% 
-\contentsline {section}{\numberline {3.9}Time series: p, d, q parameters, unit root and box test}{29}{section.3.9}% 
-\contentsline {chapter}{\numberline {4}Thoerem}{30}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Central Limit Theorem}{30}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Law of the large number}{30}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Naive Bayes Algorithm}{30}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Bayesian Statistics/Bayes Theorem}{30}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Sampling Theory}{30}{section.4.5}% 
-\contentsline {chapter}{\numberline {5}General}{31}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Confidence Interval}{31}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Conditional Probability}{31}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Normalisation}{31}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Standardisatio}{31}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Least-squared error}{31}{section.5.5}% 
-\contentsline {section}{\numberline {5.6}R-squared error}{31}{section.5.6}% 
-\contentsline {section}{\numberline {5.7}Mean-squared error}{31}{section.5.7}% 
-\contentsline {section}{\numberline {5.8}Inferential Statistics}{31}{section.5.8}% 
-\contentsline {section}{\numberline {5.9}Bias-variance trade off}{31}{section.5.9}% 
+\contentsline {section}{\numberline {3.1}Z test}{24}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}T test}{27}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Chi-square test}{27}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}A/B testing}{27}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}Null hypothesis $H_0$}{27}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}Alternative hypothesis $H_1$}{27}{subsection.3.4.2}% 
+\contentsline {subsection}{\numberline {3.4.3}Type I/II error}{28}{subsection.3.4.3}% 
+\contentsline {subsection}{\numberline {3.4.4}Statistical Power}{28}{subsection.3.4.4}% 
+\contentsline {subsection}{\numberline {3.4.5}Test of Significance}{28}{subsection.3.4.5}% 
+\contentsline {section}{\numberline {3.5}Hypothesis testing (one-way and two-way)}{30}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}ANOVA}{30}{section.3.6}% 
+\contentsline {section}{\numberline {3.7}ANCOVA}{30}{section.3.7}% 
+\contentsline {section}{\numberline {3.8}One-sample/Two-sample bootstrap hypothesis test}{30}{section.3.8}% 
+\contentsline {section}{\numberline {3.9}Time series: p, d, q parameters, unit root and box test}{30}{section.3.9}% 
+\contentsline {chapter}{\numberline {4}Thoerem}{31}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Central Limit Theorem}{31}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Law of the large number}{31}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Naive Bayes Algorithm}{31}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Bayesian Statistics/Bayes Theorem}{31}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Sampling Theory}{31}{section.4.5}% 
+\contentsline {chapter}{\numberline {5}General}{32}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Confidence Interval}{32}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Conditional Probability}{32}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Normalisation}{32}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Standardisatio}{32}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Least-squared error}{32}{section.5.5}% 
+\contentsline {section}{\numberline {5.6}R-squared error}{32}{section.5.6}% 
+\contentsline {section}{\numberline {5.7}Mean-squared error}{32}{section.5.7}% 
+\contentsline {section}{\numberline {5.8}Inferential Statistics}{32}{section.5.8}% 
+\contentsline {section}{\numberline {5.9}Bias-variance trade off}{32}{section.5.9}% 

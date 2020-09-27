@@ -5,10 +5,6 @@
 
 \chapter{Testing}
 
-\section{T test}
-
-\section{Chi-square test}
-
 \section{Z test}
 \label{ztest}
 
@@ -20,6 +16,7 @@ How to perform a Z test when $T$ is a statistics that is approximately normally 
 For Null Hypothesis $H_0: \mu \geq \mu_0$ vs Alternative Hypothesis $H_1: \mu < \mu_0$, it is right one-tailed test.\\ 
 For Null Hypothesis $H_0: \mu \leq \mu_0$ vs Alternative Hypothesis $H_1: \mu > \mu_0$, it is left one-tailed test.\\ 
 For Null Hypothesis $H_0: \mu = \mu_0$ vs Alternative Hypothesis $H_1: \mu \neq \mu_0$, it is two-tailed test.\\ 
+where $\mu$ is the true mean of the population under analysis, $\mu_0$ is the hypothesised mean of the population under analysis. \\
 
 3) calculate the Z score according to Eqn.(\ref{zscorenormv1}), then the one-tailed or two-tailed p-value can be obtained. This p-value is then compared with the desired confidence level to determine if $H_0$ is rejected or not.
 
@@ -36,7 +33,21 @@ In this example we treat the population mean and variance as known, which would 
 
 The classroom mean score is 96, which is $-2.47$ standard error (since we divided by $\sqrt{n}$, we have converted it into standard error) from the population mean of 100. Looking up the z-score in the table of standard normal distribution cumulative probability, we find that the probability of observing a standard normal value below $-2.47$ is around $0.5 - 0.4932 = 0.0068$. This is the one-tailed p-value for the Null Hypothesis that the 55 students are comparable to a simple random sample from the population of all test-takers. The Z test tells us that the 55 students of interest have an unusually low mean test score compared to the population mean. \\
 
+\underline{Example 2}\\
 
+A complaint was registered stating that the boys in the school were underfed. Average weight of boys of age 10 is 32kg with 9kg standard deviation (population). a sample of 25 boys was selected from the school and the average is found to be 29.5kg. At 0.05 significance level ($\alpha = 0.05$), we need to check whether the complaint is true or not.\\
+
+The Null Hypothesis says that there is no significant difference between the boys and the whole population. i.e.\\
+$H_0:\mu = 32$, no significant difference between the students.\\
+The Alternate Hypothesis says that there is a significant difference between the boys and the whole population and the complaint is true, i.e.:\\
+$H_1:\mu < 32$, there is a significant difference between the students.\\
+
+
+Using the Eqn. (\ref{zscorenormv1}), we have Z value of $\frac{29.5-32}{9/\sqrt{25}} = -1.39$. This Z value can be used to find the p-value of the same selected samples. The corresponding p-value is 0.0823. This p-value is greater than $\alpha=0.05$, this means that in this left-tailed test, we can accept (cannot reject) the Null Hypothesis. This means that there is a probability of 0.0823 that a sample from the population can have more than 1.39 standard error from the population mean, as demonstrated by our sample (because we want to know if a sample drawn from this population is the same as the sample we are studying.), and it is larger than our $\alpha$. In this case, there is no difference between the students (at this confidence level) and the complaint is not true.
+
+\section{T test}
+
+\section{Chi-square test}
 
 \section{A/B testing}
 \label{abtest}
