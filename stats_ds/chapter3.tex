@@ -12,6 +12,30 @@
 \section{Z test}
 \label{ztest}
 
+A Z-test is any statistical test for which the distribution of the test statistics (i.e. a quantity derived from the sample) under the Null Hypothesis can be approximated by a normal distribution. Z-test tests the mean of a distribution. \\
+
+How to perform a Z test when $T$ is a statistics that is approximately normally distributed under the Null Hypothesis:\\
+1) estimate the expected value (mean) $\mu$ of $T$ under the Null Hypothesis, and obtain the standard deviation $\sigma$ of T.\\
+2) determine the properties of $T$: one tailed or two tailed: \\
+For Null Hypothesis $H_0: \mu \geq \mu_0$ vs Alternative Hypothesis $H_1: \mu < \mu_0$, it is right one-tailed test.\\ 
+For Null Hypothesis $H_0: \mu \leq \mu_0$ vs Alternative Hypothesis $H_1: \mu > \mu_0$, it is left one-tailed test.\\ 
+For Null Hypothesis $H_0: \mu = \mu_0$ vs Alternative Hypothesis $H_1: \mu \neq \mu_0$, it is two-tailed test.\\ 
+
+3) calculate the Z score according to Eqn.(\ref{zscorenormv1}), then the one-tailed or two-tailed p-value can be obtained. This p-value is then compared with the desired confidence level to determine if $H_0$ is rejected or not.
+
+In summary, a simple case of Z test is that we have a population distribution (with a certain population mean and standard deviation). Now given a new sample, we would like to know if the mean of the new sample is significantly differ from the population mean, and we can use z test to find out assuming the distribution follow normal distribution.\\
+
+\underline{Example 1}\\
+In a region (population) the mean and standard deviation of scores on a reading test is 100 and 12. Our interest (sample) is in the score of 55 students in a particular class who received a mean score of 96. We can ask whether this mean score is significantly lower than the region mean, that is, are the students in this school comparable to a simple random sample of 55 students from the region as a whole, or are their scores surprisingly low ?\\
+
+Using Eqn.(\ref{zscorenormv1}), we can calculate the Z score as:
+\begin{eqnarray}
+Z = \frac{\bar{X} - \mu}{\sigma/\sqrt{n}} = \frac{96-100}{12/\sqrt{55}} = -2.47
+\end{eqnarray}
+In this example we treat the population mean and variance as known, which would be appropriate if all students in the region were tested. When population parameters are unknown, a \underline{t test} should be conducted instead.\\
+
+The classroom mean score is 96, which is $-2.47$ standard error (since we divided by $\sqrt{n}$, we have converted it into standard error) from the population mean of 100. Looking up the z-score in the table of standard normal distribution cumulative probability, we find that the probability of observing a standard normal value below $-2.47$ is around $0.5 - 0.4932 = 0.0068$. This is the one-tailed p-value for the Null Hypothesis that the 55 students are comparable to a simple random sample from the population of all test-takers. The Z test tells us that the 55 students of interest have an unusually low mean test score compared to the population mean. \\
+
 
 
 \section{A/B testing}

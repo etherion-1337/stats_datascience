@@ -208,6 +208,35 @@ See Chapter (\ref{abtest})
 
 \section{Z value}
 
+Details please see Chapter (\ref{ztest}).\\
 
+Z value, also known as z-scores and more commonly the Standard Score, is the \underline{number of standard deviations} by which the value of a raw score (i.e. an observed value or data point) is above or below the \underline{mean} value of what is being observed or measured. Raw scores above the mean have positive z value, while those below the mean have negative z value. \\
 
+If the population mean and population standard deviation are known, a raw score $x$ is converted to z score by:
+\begin{eqnarray}
+z = \frac{x - \mu}{\sigma}
+\label{zscore}
+\end{eqnarray}
+where:\\
+$\mu$ is the mean of the population and $\sigma$ is the standard deviation of the population. Calculating z score using this formula requires the population mean and population standard deviation, NOT the sample mean or sample deviation.  But knowing the true mean and standard deviation of a population is often unrealistic except in cases such as standardised testing, where the entire population is measured. \\
 
+When the population mean and the population standard deviation are unknown, the z score may be calculated using sample mean and sample standard deviations as estimates of the population. In these case, sometimes the z score is normalised by the sample size:
+\begin{eqnarray}
+z = \frac{x - \bar{x}}{\bar{\sigma}}
+\label{zscorenorm}
+\end{eqnarray}
+where $\bar{x}$ and $\bar{\sigma}$ are the mean and standard deviation of the sample. Sometimes for sample-based z value, the z value is normalised by the $sqrt{n}$ where $n$ is the sample size used to get the z value:
+\begin{eqnarray}
+z = \frac{x - \bar{x}}{\bar{\sigma}/\sqrt{n}}
+\label{zscorenormv1}
+\end{eqnarray}
+
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.15]{The_Normal_Distribution.png}
+	\caption[]{Compares the various grading methods in a normal distribution. Includes: Standard deviations, cumulative percentages, percentile equivalents, Z-scores, T-scores.}
+	\label{zscorecompare}
+	\end{center}
+	\end{figure}
+
+In educational assessment, T-score is a standard score Z shifted and scaled to have a mean of 50 and a standard deviation of 10.
