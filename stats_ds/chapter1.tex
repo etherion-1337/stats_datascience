@@ -296,6 +296,41 @@ F(x;\lambda) = \begin{cases}
 	\end{center}
 	\end{figure}
 
+\section{Continuous variable: Chi-Square Distribution, $\chi^2$}
+
+The chi-square ($\chi^2$) distribution with \underline{k degrees of freedom} is the distribution of a sum of the squares of \underline{k independent standard normal random variables}.  The chi-square distribution is used in the common chi-square chi-square tests for goodness of fit of an observed distribution to a theoretical one. \\
+
+Let's say we have some random variables, each of them are independent standard, normally distributed random variables. Say we have random variable $X_1$:
+\begin{eqnarray}
+X_1 \sim N(0, 1)
+\end{eqnarray}
+This variable has mean = 0, variance/standard deviation = 1 and follows Normal Distribution.  \\
+
+Say now we have a new random variable $Q = X_1^2$, i.e. we sample from the distribution of $X_1$ and square whatever number we have. Q will have a chi-square distribution with k = 1 degree of freedom, i.e. $Q \sim \chi^2_1$. If $Q = X_1^2 + X_2^2$ then Q will have a degree of freedom = 2, $Q \sim \chi^2_2$.
+
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.07]{cs_pdf.png}
+	\caption[]{Probability Density Function (PDF) of Chi-Square distribution.}
+	\label{cspdf}
+	\end{center}
+	\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+	\includegraphics[scale=0.07]{cs_cdf.png}
+	\caption[]{Cumulative Distribution Function (CDF) of Chi-Square distribution.}
+	\label{cspdf}
+	\end{center}
+	\end{figure}
+
+The Probability Density Function is shown in Fig.(\ref{cspdf}). For k = 1 the probability is high when x = 0. If we just sample once from $X_1$ we are very likely to get a value that close to 0. 
+
+
+
+
+
+
 
 
 
