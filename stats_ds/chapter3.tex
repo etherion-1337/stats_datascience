@@ -48,9 +48,24 @@ Using the Eqn. (\ref{zscorenormv1}), we have Z value of $\frac{29.5-32}{9/\sqrt{
 \section{T test}
 \label{ttest}
 
+T test are very similar to Z test described above. Both test usually requires the sample means to exhibit normality for exactness. In addition, whether using T test or Z test depends on:\\
+
+1) The size of our sample. The magic number is usually around 30-50. Below that is considered a small sample. When the sample size is large enough, the central limit theorem kicks in and we do not need to worry too much about the population is normally distributed. \\
+
+2) If we know the population standard deviation ($\sigma$). In real life we usually do not know this value. But in certain cases we can have this information. \\
+
+If sample size is large and $\sigma$ is known, we can use Z test. If sample size is large and $\sigma$ is unknown, use T test. If the population is small, usually use T test instead unless population $\sigma$ is known. The formula is similar to Z-statistics:
+
+\begin{eqnarray}
+t-statistics = \frac{\bar{X} - \mu}{S/\sqrt{n}}
+\end{eqnarray}
+
+where $\mu$ is the population mean and $S$ is the sample standard deviations. 
+
 
 
 \section{Chi-square test}
+
 
 \section{A/B testing}
 \label{abtest}

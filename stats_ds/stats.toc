@@ -24,18 +24,18 @@
 \contentsline {section}{\numberline {2.8}Confidence Interval}{21}{section.2.8}% 
 \contentsline {section}{\numberline {2.9}Confidence Level}{21}{section.2.9}% 
 \contentsline {section}{\numberline {2.10}P value}{21}{section.2.10}% 
-\contentsline {section}{\numberline {2.11}T value}{21}{section.2.11}% 
+\contentsline {section}{\numberline {2.11}T value/t-statistic}{21}{section.2.11}% 
 \contentsline {section}{\numberline {2.12}Z value}{21}{section.2.12}% 
 \contentsline {chapter}{\numberline {3}Testing}{24}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Z test}{24}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}T test}{27}{section.3.2}% 
+\contentsline {section}{\numberline {3.2}T test}{26}{section.3.2}% 
 \contentsline {section}{\numberline {3.3}Chi-square test}{27}{section.3.3}% 
 \contentsline {section}{\numberline {3.4}A/B testing}{27}{section.3.4}% 
 \contentsline {subsection}{\numberline {3.4.1}Null hypothesis $H_0$}{27}{subsection.3.4.1}% 
-\contentsline {subsection}{\numberline {3.4.2}Alternative hypothesis $H_1$}{27}{subsection.3.4.2}% 
+\contentsline {subsection}{\numberline {3.4.2}Alternative hypothesis $H_1$}{28}{subsection.3.4.2}% 
 \contentsline {subsection}{\numberline {3.4.3}Type I/II error}{28}{subsection.3.4.3}% 
 \contentsline {subsection}{\numberline {3.4.4}Statistical Power}{28}{subsection.3.4.4}% 
-\contentsline {subsection}{\numberline {3.4.5}Test of Significance}{28}{subsection.3.4.5}% 
+\contentsline {subsection}{\numberline {3.4.5}Test of Significance}{29}{subsection.3.4.5}% 
 \contentsline {section}{\numberline {3.5}Hypothesis testing (one-way and two-way)}{30}{section.3.5}% 
 \contentsline {section}{\numberline {3.6}ANOVA}{30}{section.3.6}% 
 \contentsline {section}{\numberline {3.7}ANCOVA}{30}{section.3.7}% 
