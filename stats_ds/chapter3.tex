@@ -65,7 +65,29 @@ where $\mu$ is the population mean and $S$ is the sample standard deviations.
 
 
 \section{Chi-squared test}
-A chi-squared test ($\chi^2$ test) is a statistical hypothesis test that is valid to perform when the test statistic is chi-squared distributed under the Null Hypothesis, specifically Pearson's chi-squared test. One
+A chi-squared test ($\chi^2$ test) is a statistical hypothesis test that is valid to perform when the test statistic is chi-squared distributed under the Null Hypothesis, specifically Pearson's chi-squared test. The Pearson's chi-square test is used to determine whether there is a statistically significant difference between the expected frequencies and the observed frequencies in one or more categories.\\
+
+Suppose that $n$ observations in a random sample from a population are classified into $k$ mutually exclusive classes with respective observed numbers $x_i$ (for i = 1, 2, ... , k) and a Null Hypothesis gives the probability $p_i$ that an observations falls into the $i$th class. So we have expected numbers $m_i = np_i $.\\
+
+The chi-square statistics:
+\begin{eqnarray}
+X^2 = \sum_{i=1}^{k} \frac{(x_i - m_i)^2}{m_i}
+\end{eqnarray}
+The expected number $m_i$ is large enough known numbers in all cells assuming every $x_i$ maybe taken as normally distributed. And then in the limit that $n$ becomes large, $X^2$ follows the $\chi^2$ distribution with $k-1$ degrees of freedom. We can then look up the $\chi^2$ table to obtain (one- or two-tail) p-value to determine if Null hypothesis should be rejected. \\
+
+\underline{Example}\\
+
+For example
+
+\begin{table}[h!]
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Day         & M  & T  & W  & T  & F  & S  \\ \hline
+Observed    & 30 & 14 & 34 & 45 & 57 & 20 \\ \hline
+Expected    & 20 & 20 & 30 & 40 & 60 & 30 \\ \hline
+Expected \% & 10 & 10 & 15 & 20 & 30 & 15 \\ \hline
+\end{tabular}
+\end{table}
 
 \section{A/B testing}
 \label{abtest}
