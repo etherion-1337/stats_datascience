@@ -77,7 +77,7 @@ The expected number $m_i$ is large enough known numbers in all cells assuming ev
 
 \underline{Example}\\
 
-For example
+For example, we want to investigate what is the distribution of the number of customers we get each day for a particular restaurant ? The restaurant owner claimed that the distribution is the expected number in the table below. We would like to see how good this distribution he claimed actually fits the observed data. \\
 
 \begin{table}[h!]
 \begin{tabular}{|c|c|c|c|c|c|c|}
@@ -88,6 +88,17 @@ Expected    & 20 & 20 & 30 & 40 & 60 & 30 \\ \hline
 Expected \% & 10 & 10 & 15 & 20 & 30 & 15 \\ \hline
 \end{tabular}
 \end{table}
+
+We can make the Null Hypothesis that the owner's distribution is correct, i.e. $H_0$: The expected number of customer is right. Then $H_1$: The expected number is wrong. And I want to do this with a significance level of $5\%$ or $\alpha = 0.05$. We are going to calculate a test statistics here based on the table, this statistics is the chi-square statistics.  Another way to understand it is that the statistics we are calculating has approximately a chi-square distribution. And given that it does have a chi-square distribution with a certain number of degrees of freedom, we would like to see the probability of getting the observed results (or more extreme) is less than $5\%$, in that case we can reject the Null Hypothesis. \\
+
+From the observed data, we obtained that the total number of customers is 200, which can be used to calculate the Expected number of customers in the table above. Then using the chi-square formula, we can obtain the chi-square statistics (approximate to $\chi^2$):
+\begin{eqnarray}
+X^2 &=& \frac{(30-20)^2}{20} + \frac{(14-20)^2}{20} + \frac{(34-30)^2}{30} \\ \nonumber
+       &+&\frac{(45-40)^2}{40} + \frac{(57-60)^2}{60} + \frac{(20-30)^2}{30} \\ \nonumber
+       &=& 11.44
+\end{eqnarray}
+
+If we assume this test statistics follows a chi-square distribution, what is the probability of getting a result this extreme ? For our particular case, the degree of freedom is $(6-1)=5$. If we check out a chi-square table of the graph of chi-square PDF (Fig.(\ref{cspdf})), the value for 11.44 is a bit less than $5\%$. Hence we can reject $H_0$.
 
 \section{A/B testing}
 \label{abtest}
