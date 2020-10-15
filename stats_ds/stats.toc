@@ -51,10 +51,10 @@
 \contentsline {chapter}{\numberline {5}General}{35}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Confidence Interval}{35}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Conditional Probability}{35}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Normalisation}{35}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Standardisatio}{35}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Least-squared error}{35}{section.5.5}% 
-\contentsline {section}{\numberline {5.6}R-squared error}{35}{section.5.6}% 
-\contentsline {section}{\numberline {5.7}Mean-squared error}{35}{section.5.7}% 
-\contentsline {section}{\numberline {5.8}Inferential Statistics}{35}{section.5.8}% 
-\contentsline {section}{\numberline {5.9}Bias-variance trade off}{35}{section.5.9}% 
+\contentsline {section}{\numberline {5.3}Normalisation}{37}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Standardisation}{37}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Least-squared error}{37}{section.5.5}% 
+\contentsline {section}{\numberline {5.6}R-squared error}{37}{section.5.6}% 
+\contentsline {section}{\numberline {5.7}Mean-squared error}{37}{section.5.7}% 
+\contentsline {section}{\numberline {5.8}Inferential Statistics}{37}{section.5.8}% 
+\contentsline {section}{\numberline {5.9}Bias-variance trade off}{37}{section.5.9}% 
